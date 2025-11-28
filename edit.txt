@@ -1023,7 +1023,7 @@ local v658, vu659 = pcall(function()
         Icon = "rbxassetid://9327507243",
         Duration = 15
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/FemWare/main/Verify", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dvthuraki/robloxthings/refs/heads/main/whitelist.lua", true))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/FemWare/main/BlackList", true))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/FemWare/main/Con1", true))()
     local vu6 = game:GetService("RbxAnalyticsService"):GetClientId()
@@ -4458,4 +4458,5 @@ if not v658 then
         messagebox("FemWare has detected an error. \n\nYour error is (" .. tostring(vu659) .. ") \n\nIf you need help fixing, A random generated Support Code (" .. v661 .. ") has been copied. \n\nGo #support, open a ticket and paste your Support tag there and we will help you shortly. \n\nSupport server, discord.gg/YKcnpSYzvP", "lmao", 0)
         setclipboard(v661)
     end)
+
 end
