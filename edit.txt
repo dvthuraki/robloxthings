@@ -4,6 +4,8 @@
 
 -- hey
 
+-- edited by amerikalii 29/11/2025
+
     function GunModules() -- [[FemWare]]
         for i, v in pairs(getgc(true)) do
             if type(v) == 'table' and rawget(v, 'EquipTime') then
@@ -1016,11 +1018,11 @@ local v658, vu659 = pcall(function()
         Icon = "rbxassetid://9327507243",
         Duration = 3
     })
-    Version = "FemWare Legacy"
+    Version = "FemWare Revamp"
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = Version,
-        Text = "Thanks for choosing FemWare! Script will only show once playing, not in lobby. discord.gg/YKcnpSYzvP",
-        Icon = "rbxassetid://9327507243",
+        Text = "edited by amerikalii.",
+        Icon = "rbxassetid://5639840621",
         Duration = 15
     })
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dvthuraki/robloxthings/refs/heads/main/whitelist.lua", true))()
@@ -1089,8 +1091,8 @@ local v658, vu659 = pcall(function()
                 Enabled = false,
                 Amount = 40
             },
-            NoBarbwire = false,
-            NoFallDamage = false,
+            NoBarbwire = true,
+            NoFallDamage = true,
             NoRagdoll = false,
             WatermarkOn = false,
             ViewModel = {
@@ -3530,12 +3532,9 @@ local v658, vu659 = pcall(function()
                         end
                     end):AddKeybind("None")
                     v269:AddSeperator("Specials | Contributors")
+                    v269:AddLabel("amerikalii - Editor - 29/11/2025")
                     v269:AddLabel("sakuya#3036 - Founder - 15/04/2022")
                     v269:AddLabel("Fanya#6470 - Scripter - 25/04/2022")
-                    v269:AddSeperator("Wise Words")
-                    v269:AddLabel("Buy Premium")
-                    v269:AddLabel("- Fanya#6470")
-                    v269:AddSeperator("Legend")
                     v269:AddLabel("[!] = Performance Issues")
                     v269:AddLabel("[?] = Detectable?")
                     v268:AddToggle("Open / Close", true, function(p591)
@@ -3955,4 +3954,4 @@ if not v658 then
         setclipboard(v661)
     end)
 
-end-- realbunni.com
+end
