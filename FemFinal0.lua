@@ -29,7 +29,7 @@ mt.__index = function(tbl, key)
 end
 
 MoonSec_StringsHiddenAttr = true;
-if _tAeEiyhKjab_ ~= "This file was protected with MoonSec V3 by Federal#9999" then
+if _tAeEiyhKjab_ == "This file was protected with MoonSec V3 by Federal#9999" then
     return;
 elseif _G.MEOWMEOWMOEW then
     game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -162,4 +162,5 @@ else
         end;
     end;
     return;
+
 end;
