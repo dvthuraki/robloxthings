@@ -1029,11 +1029,11 @@ local v658, vu659 = pcall(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/FemWare/main/BlackList", true))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/FemWare/main/Con1", true))()
     local vu6 = game:GetService("RbxAnalyticsService"):GetClientId()
-    if l ~= Version or l == nil then
+    --[[ if l ~= Version or l == nil then
         game:GetService("Players").LocalPlayer:Kick("FemWare is under maintenance: discord.gg/YKcnpSYzvP")
         pcall(function()
             setclipboard("https://discord.gg/YKcnpSYzvP")
-        end)
+        end) ]]
         return
     else
         game = game
@@ -3955,3 +3955,4 @@ if not v658 then
     end)
 
 end
+
