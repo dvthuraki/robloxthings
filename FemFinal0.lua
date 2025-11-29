@@ -33,10 +33,10 @@ if _tAeEiyhKjab_ == "This file was protected with MoonSec V3 by Federal#9999" th
     return;
 elseif _G.MEOWMEOWMOEW then
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "FemWare Legacy", 
-        Text = "Script Stuck? Report discord.gg/YKcnpSYzvP", 
-        Icon = "rbxassetid://9327507243", 
-        Duration = 3
+        Title = "Script stuck?", 
+        Text = "Rejoin to run script again.", 
+        Icon = "rbxassetid://5639840621", 
+        Duration = 5
     });
     return;
 else
@@ -164,3 +164,4 @@ else
     return;
 
 end;
+
